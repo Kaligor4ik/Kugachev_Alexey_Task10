@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task01
+namespace Task02
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Calculator.SimpleCalculator.GetFactorial(5));
-            Console.WriteLine(Calculator.SimpleCalculator.Elevate(4, 5));
-            Console.ReadKey();
         }
     }
 }
